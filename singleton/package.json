@@ -13,7 +13,7 @@
     "email": "logan.ripplinger@gmail.com",
     "url": "loganripplinger.github.io"
   },
-  "license": "The Unlicense (unlicense.org)",
+  "license": "GNU AGPLv3",
   "dependencies": {},
   "devDependencies": {
     "rollup-watch": "^4.3.1"
