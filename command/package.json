@@ -1,0 +1,21 @@
+{
+  "name": "singleton",
+  "version": "1.0.0",
+  "description": "Free JavaScript ES6 Design Patterns tutorial",
+  "keywords": "JavaScript,ES6,ES5,Design,Design Pattern,Design Patterns,Singleton",
+  "main": "index.html",
+  "scripts": {
+    "start": "rollup -c -w",
+    "test": "test"
+  },
+  "author": {
+    "name": "Logan Ripplinger",
+    "email": "logan.ripplinger@gmail.com",
+    "url": "loganripplinger.github.io"
+  },
+  "license": "GNU AGPLv3",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup-watch": "^4.3.1"
+  }
+}
