@@ -1,2 +1,2 @@
-# javascript-es6-design-patterns
-javascript-es6-design-patterns
+# Javascript ES6 design pattern examples
+This code is structed in such a way to facilitate lessons.
