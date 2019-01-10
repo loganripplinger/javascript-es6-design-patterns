@@ -1,0 +1,13 @@
+{
+  "name": "javascript-es6-design-patterns-tutorial",
+  "version": "1.0.0",
+  "description": "Free JavaScript ES6 Design Patterns tutorial",
+  "keywords": "JavaScript,ES6,ES5,Design,Design Pattern,Design Patterns,Singleton",
+  "main": "index.html",
+  "author": {
+    "name": "Logan Ripplinger",
+    "email": "logan.ripplinger@gmail.com",
+    "url": "loganripplinger.github.io"
+  },
+  "license": "The Unlicense (unlicense.org)",
+}
