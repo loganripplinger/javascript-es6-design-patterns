@@ -30,37 +30,49 @@ const nestedArray = Array.from(Array(N), _ => [])
 
 #### Check if something is in an array
 ```javascript
-const element = 3
-[1,2,3].includes(element)
+const elementToFind = 3
+const numbers = [1,2,3]
+numbers.includes(elementToFind) // true
 ```
 
 ### Declarative Array Tasks
 
 ### Remove elements that don't match condition
 ```javascript
-[1,2,3,4].filter(el => el % 2 == 1) //== [2,4]
+const numbers = [0,1,2,3,4]
+const evenNumbers = numbers.filter(el => el % 2 == 1) // [0,2,4]
 ```
 
 ### Apply function to every element
 ```javascript
-[1,2,3,4].map(el => el**2) // [1,4,9,16]
+const numbers = [0,1,2,3,4]
+const squaredNumbers = numbers.map(el => el**2) // [0,1,4,9,16]
 ```
 
 ### Reduce all elements into one value
 ```javascript
-[1,2,3,4].reduce((el, acc) => acc + el) === 10
+const numbers = [0,1,2,3,4]
+const sum = numbers.reduce((el, acc) => acc + el) // 10
 ```
 
 #### Check if some condition occurs at least once in an array
 ```javascript
-[2,4,5].some(el => el % 2 == 0) === true
-[1,3,5].some(el => el % 2 == 0) === false
+const twoEvenOneOdd = [2,4,5]
+const threeOdd = [1,3,5]
+twoEvenOneOdd.some(el => el % 2 == 0) === true
+threeOdd.some(el => el % 2 == 0) === false
 ```
 
 #### Check if some condition occurs for every element
 ```javascript
-[2,4,6].every(el => el % 2 == 0) === true
-[2,4,5].every(el => el % 2 == 0) === false
+const threeEven = [2,4,6]
+const twoEvenOneOdd = [2,4,5]
+threeEven.every(el => el % 2 == 0) === true
+twoEvenOneOdd.every(el => el % 2 == 0) === false
+```
+
+### 
+```javascript
 ```
 
 ### 
