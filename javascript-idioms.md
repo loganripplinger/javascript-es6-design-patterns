@@ -23,6 +23,14 @@ const array = new Array(5)
 const nestedArray = Array.from(Array(N), _ => [])
 ```
 
+#### Deep copy array without objects in it
+```javascript
+const oldArray = [1,2,3,[4,5]]
+const newArray1 = Array.from(oldArray) // newArray1 is now [1,2,3,[4,5]]
+const newArray2 = Array(oldArray) // newArray2 is now [1,2,3,[4,5]]
+#### Destructure array in function params
+```
+
 #### Destructure array in function params
 ```javascript
 [[1,2], [3,4]].forEach(([a, b]) => { console.log(a, b) })
