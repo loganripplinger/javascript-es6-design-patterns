@@ -23,6 +23,11 @@ const array = new Array(5)
 const nestedArray = Array.from(Array(N), _ => [])
 ```
 
+#### Initalize an Array with empty strings
+```javascript
+const emptyStringArray = Array(10).fill('') // ['', '', '', '', '', '', '', '', '', '']
+```
+
 #### Deep copy array without objects in it
 ```javascript
 const oldArray = [1,2,3,[4,5]]
