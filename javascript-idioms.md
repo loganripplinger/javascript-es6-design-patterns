@@ -59,7 +59,7 @@ const squaredNumbers = numbers.map(el => el**2) // [0,1,4,9,16]
 ### Reduce all elements into one value
 ```javascript
 const numbers = [0,1,2,3,4]
-const sum = numbers.reduce((el, acc) => acc + el) // 10
+const sum = numbers.reduce((acc, val) => acc + val) // 10
 ```
 
 #### Check if some condition occurs at least once in an array
