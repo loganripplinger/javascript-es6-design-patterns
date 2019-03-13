@@ -3,17 +3,42 @@
 ## General
 Use _ for variables you won't reference
 
-To check if something is even, n % 2 == 0
-To check if something is odd, n % 2 == 1
-To get the last number of an integer, n % 10
-To drop the last number of an integer, Math.floor(n / 10)
+## Mathy tasks
+#### Check the sign of a number
+Check if even
+```javascript
+n % 2 == 0
+```
+
+Check if odd
+```javascript
+n % 2 == 1
+```
+
+#### Get the last number
+```javascript
+const number = 1234
+const lastNumber = number % 10 // 4
+```
+
+#### Remove the ones digit from number
+```javascript
+const number = 1234
+const lastNumber = Math.floor(number / 10) // 123
+const lastNumber = Math.ceil(number / 10) // same as Math.floor but this works with negative numbers
+```
+
+#### Get number of digits in a number
+aka 'order of magnitude'
+```javascript
+const number = 1234
+const numberOfDigits = Math.floor(Math.log10(number) + 1) // 4
+```
 
 ## Array operations
-
 ### Regular Array Tasks
 
 #### Initalize sized array
-
 ```javascript
 const array = new Array(5)
 ```
