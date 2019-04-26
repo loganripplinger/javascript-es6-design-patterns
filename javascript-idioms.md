@@ -50,7 +50,8 @@ const nestedArray = Array.from(Array(N), _ => [])
 
 #### Initalize an Array with empty strings
 ```javascript
-const emptyStringArray = Array(10).fill('') // ['', '', '', '', '', '', '', '', '', '']
+const emptyStringArray1 = Array(10).fill('') // ['', '', '', '', '', '', '', '', '', '']
+const emptyStringArray2 = [...Array(10)] // [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined]
 ```
 
 #### Deep copy array without objects in it
